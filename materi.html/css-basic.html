@@ -1,0 +1,98 @@
+<!-- shortcut struktur dasar html5 di vscode -->
+<!-- ketikan html:5 lalu klik atau tekan tab -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Attributes</title>
+    <style>
+      /* ini komentar */
+      /* id di tandai dengan tanda # */
+      /* class di tandai dengan tanda . */
+      
+      #box1{
+        background-color: aqua; width: 400px; padding: 20px; border: 4px solid rgb(56, 22, 211);
+        
+        
+      }
+      #box1 h2 {
+        color: brown;
+      }
+      #box2{    
+        background-color: rebeccapurple;
+        width: 200px;
+        padding: 20px;
+        margin: 30px; 
+      }
+      
+      #title{
+        color: indigo;
+      }
+      .deskripsi{
+        font-size: 20px;
+        color: rgb(204, 245, 20);
+      }
+      #box1 u{
+        color: red;
+      }
+      #box2 a{ 
+        color: white;
+      }
+
+
+      p{ 
+        font-family: 'Courier New'
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <!-- div = mengelompokan banyak tag -->
+    <!-- style = menyisipkan syntax css ke tag -->
+    <!-- disebut juga sebagai `inline-css` -->
+    <div id="box1">
+      <!-- value warna di css punya 3 metode: -->
+      <!-- 1. color name (english): aqua -->
+      <!-- 2. hex (heksadesimal): #8c03ccee -->
+      <!-- 3. rgb (red, green, blue): rgb(214, 28, 28) -->
+      <h1 id="title"">Belajar Attribute</h1>
+
+      <h2>COBA CSS</H2>
+      <!-- `lorem` = teks random tanpa makna -->
+      <p class="deskripsi">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <b style="font-size: 25px">Porro</b> dolores animi quae maxime error
+        pariatur quisquam similique!
+        <u>Veritatis</u>,
+        voluptatum ipsa molestiae voluptatibus, eligendi nobis fugit, quas
+        voluptatem porro necessitatibus magnam.
+      </p>
+    </div>
+    <br />
+    <!-- padding: jarak elemen dari dalam -->
+    <!-- margin: jarak elemen dari luar -->
+    <div id="box2">
+    
+      <h1>Kotak Baru</h1>
+      <p>Ini div bawah</p>
+      <!-- attribute target="_blank" untuk membuka link ke tab baru -->
+      <a href="https://google.com" target="_blank">Klik Google ke Tab Baru</span></a>
+    
+    <p>berikut adalah daftar makanan kesukaan saya:</p>
+    <ul type="disc">
+      <li>bakso</li>
+      <li>mie</li>
+      <li>nasi</li>
+    </ul>
+    <p>berikut adalah daftar hewan kesukaan saya:</p>
+    <ol type="i">
+      <li>ikan</li>
+      <li>kucing</li>
+      <li>sapi</li>
+    </ol>
+
+    </div>
+  </body>
+</html>

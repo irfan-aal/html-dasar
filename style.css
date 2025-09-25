@@ -1,0 +1,9 @@
+
+      .box1{
+        background-color: aqua; width: 400px; padding: 20px; border: 4px solid rgb(56, 22, 211);}
+       
+        .section-title {
+  padding-left: 10px;      /* ruang agar teks tidak mepet garis */
+  border-left: 4px solid #22c55e; /* garis aksen di kiri */
+}
+

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=z, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML 5 TABLE</h1>
+    <hr>
+    <h3>Table dasar</h3>
+    <!-- <table></table>: untuk membuat tabel <br> -->
+    <!-- <tr></tr>untuk membuat baris pada tabel <br> -->
+    <!-- <td></td>untuk membuat kolom pada tabel <br> -->
+     <style>
+
+        #tabel-basic{
+            width: 60%;
+            border-collapse: collapse;
+        }
+        #tabel-basic td {
+            padding: 6px;
+            font-size: 16px;
+        }
+        #tabel-basic  .bg-blue {
+            background-color: lightblue;
+            color: white;  
+        }
+     </style>
+
+    <table border="1" id="tabel-basic">
+        <tr class="bg-blue">
+            <td>No</td>
+            <td>Nama</td>
+            <td>Asal</td>
+        
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Irfan Akmal Hakim</td>
+            <td>Medan</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Hakim Akmal Irfan</td>
+            <td>Pekanbaru</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Jaka Prihatin</td>
+            <td>Bandung</td>
+        </tr>
+        
+
+    </table>
+    
+    <h3>Table Standard</h3>
+    <!-- shortcut: table>thead+tbody+tfoot -->
+     <!-- th untuk membuat data /kolom di thead -->
+     <table border="1" style="width: 50%;">
+        <thead>
+        <tr>
+            <th>no</th>
+            <th>Tanggal</th>
+            <th>Nama Barang</th>
+            <th>Harga Barang</th>
+
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>23-sep-2025</td>
+                <td>Es teh desa</td>
+                <td>Rp 2.500</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>24-sep-2025</td>
+                <td>Es teh manis</td>
+                <td>Rp 3.000</td>
+            
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>25-sep-2025</td>
+                <!-- rowspan : untuk menggabungkan baris ke bawah -->
+                
+                <td rowspan="2">Es teh tawar</td>
+                <td>Rp 2.000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>26-sep-2025</td>
+                <!-- <td>Es teh tawar</td> -->
+                <td>Rp 2.000</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <!-- colspan : mengabungkan kolom -->
+            <!-- <td></td> -->
+            <!-- <td></td> -->
+            <td colspan="3">Pengeluaran</td>
+            <td>Rp 7.500</td>
+            </tr>
+        </tfoot>
+     </table>
+
+</body>
+</html>
